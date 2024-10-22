@@ -737,6 +737,10 @@ h3 {
   }
 }
 
+.header-area .main-header-area .logo-img img {
+  height: 57px;
+}
+
 @media (max-width: 767px) {
   /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
@@ -747,7 +751,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 120px;
+    /* width: 120px; */
   }
 }
 
@@ -1155,7 +1159,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     color: #fff;
     line-height: 30px;
@@ -1167,7 +1171,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     color: #fff;
     line-height: 30px;
@@ -1182,6 +1186,7 @@ h3 {
   font-family: "Petit Formal Script", cursive;
   font-weight: 400;
   color: #fff;
+  line-height: 35px;
 }
 
 /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
