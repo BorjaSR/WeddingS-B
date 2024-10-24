@@ -13,6 +13,8 @@
   justify-content: start;
 }
 
+html { scroll-behavior: smooth; }
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -1374,6 +1376,103 @@ h3 {
   background-position: center center;
   background-size: cover;
 }
+/* line 13, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
+.program_details_area .card_elevated {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.program_details_area .single_program .inner_row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.program_details_area .single_program .important_data {
+  background: #fff;
+  padding: 45px 30px;
+}
+
+.program_details_area .single_program .important_data .separator{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.program_details_area .single_program .important_data .definition {
+  text-align: end;
+  padding-right: 5px;
+  margin-bottom: 0px;
+}
+
+.program_details_area .single_program .important_data .description {
+  text-align: start;
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+
+.program_details_area .single_program .important_data a {
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  color: #C78665;
+}
+
+.program_details_area .single_program .important_data a:hover {
+  color: #C78665;
+  text-decoration-line: underline;
+}
+
+.program_details_area .single_program .important_data span {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Petit Formal Script", cursive;
+}
+
+.program_details_area .single_program .important_data h3 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #C78665;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.program_details_area .single_program .important_data h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+}
+
+.program_details_area .single_program .important_data p {
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+}
+@media (max-width: 767px) {
+  .program_details_area .single_program .important_data {
+    padding: 45px 10px;
+    padding-bottom: 20px;
+  }
+
+  .program_details_area .single_program .important_data .map {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 300px;
+  }
+
+  .program_details_area .single_program .important_data .definition {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .program_details_area .single_program .important_data .description {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .program_details_area .single_program .important_data h2 {
+    margin-top: 20px;
+  }
+}
 
 /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_details_area .single_program .program_inner {
@@ -1789,22 +1888,22 @@ h3 {
 
 /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_1 {
-  background-image: url(../img/gallery/1.png);
+  background-image: url(../img/gallery/fontenbleu.webp);
 }
 
 /* line 40, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_2 {
-  background-image: url(../img/gallery/2.png);
+  background-image: url(../img/gallery/Hamburgo.webp);
 }
 
 /* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_3 {
-  background-image: url(../img/gallery/3.png);
+  background-image: url(../img/gallery/Algarve.webp);
 }
 
 /* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_4 {
-  background-image: url(../img/gallery/4.png);
+  background-image: url(../img/gallery/Primera-cita.webp);
 }
 
 /* line 49, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
